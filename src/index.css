@@ -90,6 +90,26 @@ main {
     font-size: 28px;
 }
 
+.weather-forecast {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.weather-forecast-date {
+    font-size: 16px;
+    color: black;
+    opacity: 0.6;
+}
+
+.weather-forecast-temperatures {
+    font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+    opacity: 0.5;
+}
+
 
 footer {
     border-top: 1px solid #F9F7FE;
