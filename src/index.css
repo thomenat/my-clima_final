@@ -97,6 +97,14 @@ main {
     justify-content: space-around;
 }
 
+.weather-forecast-icon {
+    width: 88px;
+    height: 88px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .weather-forecast-day{
     display: flex;
     flex-direction:column;
