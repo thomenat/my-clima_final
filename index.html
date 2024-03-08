@@ -28,8 +28,9 @@
     <main>
        <div class="weather-app-data">
        
-        <div>
-        <h1 class="weather-app-city" id="city"></h1>
+        <div class="weather-app-location">
+        <h1 class="weather-app-city" id="city"></h1> 
+        <span class="weather-app-country" id="country"></span>
         </div>
 
        <div class="weather-app-temperature-container">
@@ -39,22 +40,24 @@
         <p class="weather-app-time">
             <span id="time"></span>
             </p>
-           <span class="weather-app-temp-with-unit">
-            <div class="weather-app-temperature" id="temperature"></div> 
-            <div class="weather-app-unit">°C</div>
-           </span> 
+           <div class="weather-app-temp-with-unit">
+            <span class="weather-app-temperature" id="temperature"></span> 
+            <span class="weather-app-unit">°C</span>
+           </div> 
 
         
 
        </div> 
     
        <div class="weather-app-details">
-        <div class="current-humidity">
-            Humidity: <strong id="humidity"></strong>
+        <div class="current-humidity"> <img src="media/humidity-icon.png" id="humidity-icon">
+            Humidity </br>
+            <strong id="humidity"></strong>
         </div>
 
-        <div class="current-wind-speed">
-            Wind: <strong id="wind-speed"></strong>
+        <div class="current-wind-speed"> <img src="media/wind-icon.png" id="wind-speed-icon">
+            Wind </br>
+            <strong id="wind-speed"></strong>
         </div>
          
        </div>

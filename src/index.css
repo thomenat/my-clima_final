@@ -54,25 +54,36 @@ main {
     text-align: center;
 }
 
-.weather-app-city {
-    margin: 0;
-    font-size: 38px;
-    line-height: 48px;
-    display: block;
+.weather-app-location {
+    display:block;
     text-align: left;
+    margin: 0;
+}   
+
+.weather-app-city {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+
 }
+    
+
+
+.weather-app-country {
+    font-size: 20px;
+    font-weight:200;
+    margin-top: -10px;
+    padding: 0;
+    opacity: 0.5;
+}
+
 
 .weather-app-time {
     font-size: 16px;
     color: white;
     line-height: 24px;
     font-weight: 200;
-}
-
-.weather-app-details {
-    display: flex;
-    text-align: center;
-    
+    margin: 0 0 10px 0;
 }
 
 .weather-app-temperature-container {
@@ -81,9 +92,26 @@ main {
     
 }
 
+
+
 .weather-app-icon {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    padding: 0 0 0 110px;
+    text-align: center;
+}
+
+
+#weather-description {
+    font-size: 20px;
+    margin: 0;
+}
+
+.weather-app-temp-with-unit {
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
 }
 
 .weather-app-temperature {
@@ -93,8 +121,39 @@ main {
 }
 
 .weather-app-unit {
-    margin-top: 6px;
-    font-size: 28px;
+    margin-top: 0;
+    font-size: 20px;
+    
+    
+}
+.weather-app-details {
+    display: flex;
+    text-align: right;
+    font-weight: lighter;
+    justify-content: space-evenly;
+    margin: 10px 5px 5px 5px;
+    border-top: #F9F7FE solid;
+    border-width: 1px;
+   
+}
+
+.current-humidity {
+    display:inline;
+    padding: 10px;
+}
+
+.current-wind-speed {
+
+    display: inline;
+    padding: 10px;
+}
+
+#humidity-icon {
+    margin: 10px 10px 0 0;
+}
+
+#wind-speed-icon {
+    margin: 10px 10px 0 0;
 }
 
 .weather-forecast {
